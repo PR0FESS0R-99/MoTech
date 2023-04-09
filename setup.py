@@ -21,7 +21,7 @@ setuptools.setup(
     license='GNU General Public License v3.0',
     description='Python package for telegram bots',                           
     package_data={
-      "Telethroid": ["py.typed"],
+      "motech": ["py.typed"],
     },
     url="https://github.com/PR0FESS0R-99/MoTech",
     packages=setuptools.find_packages(),
@@ -50,5 +50,5 @@ setuptools.setup(
     ],
     python_requires=">=3.6",
     install_requires=requires,
-    py_modules=["Telethroid"],
+    py_modules=["motech"],
 )
